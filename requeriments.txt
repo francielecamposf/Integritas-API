@@ -1,0 +1,15 @@
+Steps to run robot framework test cases in Mac machine:
+
+1. The machine should have python 2.7 if not please install it.
+
+2. Install the below libraries:
+	pip install robotframework
+	pip install pip install -U robotframework-requests
+	pip install -robotframework-selenium2library
+
+3. Navigate upto the location where the files 'TestCasesAllResq.robot' or 'TestCasesAPIAlternativeResq.robot' are located.
+
+4. Run the test using the below command:
+	Robot TestCasesAllResq.robot
+
+	
